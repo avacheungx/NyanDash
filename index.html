@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyan Dash</title>
+    
+    <!-- p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
+    
+    <script src="sketch.js"></script>
+
+    <style>
+      body {
+        font-family: 'Comic Sans MS', cursive;
+        color: white;
+        background: linear-gradient(109.5deg, rgb(24, 175, 231) 11.2%, rgb(67, 82, 186) 74.6%);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #game-container {
+        position: relative;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #second-container {
+        position: absolute;
+        top: 200px;
+        left: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        background-color:rgb(143, 184, 255);
+        z-index:2;
+        color:black;
+        width: 300px;
+        height: 300px;
+        border: 5px solid grey;
+      }
+
+
+      .content {
+        width: 600px;
+        text-align: left;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: (rgba(0, 0, 0, 0.5));
+        border-radius: 10px;
+      }
+
+      h1, h2, h3 {
+        color: #FFD700;
+        text-align: center;
+      }
+
+      p, ul {
+        color: white;
+        font-size: 14pt;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: square;
+      }
+
+      button{
+        font-size:24px;
+        border-radius:20px;
+        padding:10px 10px;
+        align-items: center;
+        background-color: azure;
+        border:none;
+        cursor: pointer;
+        margin-top:200px;
+        position:absolute;
+        justify-content:center;
+      }
+
+      button:hover{
+        background-color:aquamarine;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>Nyan Dash</h1>
+      <h2>Created By: Juno Cheung</h2>
+
+      <p id="description">
+        In Nyan Dash, you take control of the beloved Nyan Cat as it zooms across a vibrant, pixelated landscape. 
+        Avoid quirky obstacles like bushes, fire hydrants, and cat posts while leaping through the air to keep the fun going. 
+        With simple one-button controls, anyone can jump right into this addictive endless runner and aim for the highest score. 
+        Perfect for fans of fast-paced gameplay and the iconic Nyan Cat, this game offers an exciting challenge with retro visuals and a fun, engaging atmosphere.
+      </p>
+
+      <h3>Instructions:</h3>
+
+      <p><strong>Objective:</strong></p>
+      <ul>
+        <li>The goal of Nyan Dash is to keep Nyan Cat running as long as possible by avoiding obstacles that appear randomly across the path.</li>
+        <li>Every successful jump over an obstacle increases your score. See how high you can score before the obstacles catch up to you!</li>
+      </ul>
+
+      <p><strong>Controls:</strong></p>
+      <ul>
+        <li>Press the SpaceBar to make Nyan Cat jump over the obstacles.</li>
+        <li>Start the Game: Press the START button after a game over to restart and begin a new run.</li>
+      </ul>
+
+      <p><strong>Gameplay:</strong></p>
+      <ul>
+        <li><strong>Endless Runner:</strong> Nyan Cat continuously runs forward along the ground. Your job is to jump and avoid obstacles.</li>
+        <li><strong>Jump to Avoid Obstacles:</strong> Randomly generated obstacles like bushes, fire hydrants, and cat posts will appear on the path. Time your jumps carefully to avoid hitting them.</li>
+        <li><strong>Scoring:</strong> Every time you successfully leap over an obstacle, your score increases by 1. There’s no upper limit, so keep running to achieve new high scores.</li>
+        <li><strong>Difficulty:</strong> The game’s speed gradually increases, requiring faster reactions and more precise jumps to keep Nyan Cat safe.</li>
+      </ul>
+
+      <p><strong>End Game:</strong></p>
+      <ul>
+        <li>If Nyan Cat collides with an obstacle, the game ends. You’ll see a Game Over screen displaying your current score and your all-time highest score.</li>
+      </ul>
+    </div>
+    <div id = "game-container">
+        <div id = "second-container"></div>
+    </div>
+  </body>
+</html>
+

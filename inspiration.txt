@@ -1,0 +1,25 @@
+BrainStorming:
+- the no internet dinosaur game inspired game but instead of a bird its a flying cat (think nyan cat)
+- replace pipes with cat posts / nyc inspired buildings/obstacles
+- overtime, the cat moves faster and faster aka the obstacles come closer faster
+- score kept on top left of screen; each post/obstacle it made throguh = 1 point
+- should also have a restart button
+- use local storage to keep track of highest score and amount of games played in total
+- start screen shouuld give option to change the look of the cat
+- each jump is a sound
+- hitting an obstacle is another sound
+
+Objective:
+- keep going as long as possible
+- if you run into a post or an obstacle, restart
+
+Controls:
+- space bar to jump up
+- naturally starts falling due to gravity
+
+
+images:
+assignment03/images/nyancat.gif -copy right of NyanCat
+
+assignment03/images/brick.png
+
