@@ -9,7 +9,7 @@
  - [Deisgn Process](#overview)
 
 ## Overview
-    Nyan Dash is a simple endless runner game where players control the iconic Nyan Cat, guiding it to avoid obstacles while aiming for the highest score possible. With a simple one-button control, this game is accessible to players of all ages. The game features retro visuals, engaging gameplay, and challenges that increase in difficulty as the player's score grows.
+Nyan Dash is a simple endless runner game where players control the iconic Nyan Cat, guiding it to avoid obstacles while aiming for the highest score possible. With a simple one-button control, this game is accessible to players of all ages. The game features retro visuals, engaging gameplay, and challenges that increase in difficulty as the player's score grows.
 ## Features
 - **Endless Runner Gameplay**: Nyan Cat automatically runs forward, and the player's goal is to jump over obstacles like bushes, fire hydrants, cat posts, and rats.
 - **Scoring System**: Players earn 1 point for each obstacle they successfully jump over. The game tracks the player's high score using localStorage.
